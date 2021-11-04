@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T22:45:40.671Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="trFTg57dBA8tgguyl2xY" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T22:47:16.667Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fXUNlnxnvvZIiVmogGl3" version="15.6.8" type="github">
   <diagram id="g65OwibUVPfeZa-2Ke3x" name="Page-1">
     <mxGraphModel dx="1030" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,6 +21,12 @@
         </mxCell>
         <mxCell id="hBB15pP0LXZnmL8GRjqS-10" value="Compiler" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="390" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hBB15pP0LXZnmL8GRjqS-11" value="Interpreter/ Arm Emulator" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hBB15pP0LXZnmL8GRjqS-12" value="DartVM 组件构成图" style="swimlane;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="370" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
