@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T07:57:30.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="fc4lU2R631_BjbkmwlMz" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T08:00:26.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="SrPwiRMOCUolDvQt-f0u" version="16.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -320,7 +320,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
-          <mxGeometry x="820" y="1629" width="10" height="531" as="geometry" />
+          <mxGeometry x="820" y="1629" width="10" height="601" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
           <mxGeometry x="825" y="1730" width="10" height="40" as="geometry" />
@@ -386,6 +386,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry x="825" y="2100" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-106" value="根据上一步得到的窗口矩形区域&lt;br&gt;来设定本View的各种矩形区域" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-105" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="2080" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="2080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry x="825" y="2180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-108" value="设置InputChannel" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-107" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="2160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-51" value="Comment" style="locked=1;" parent="0" />
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-53" value="当Activity回调OnCreate之后，开发人员需要做Activity的初始化工作。当初始化工作完成后 需要调用 setContentView 函数来显示Activity的界面。也就是说OnCreate回调中最重要的一个步骤是 调用setContentView 函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="130" y="980" width="620" height="60" as="geometry" />
@@ -399,7 +421,7 @@
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-89" value="ViewRootImpl是一个视图树的管理者；&lt;br&gt;setView就是通知其开始绘制过程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="850" y="1615" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mvKPFEOK_YDnTUbCSuoW-99" value="启动描画过程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-99" value="启动描画过程，后续过程基于此来详细描述" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="940" y="1950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
