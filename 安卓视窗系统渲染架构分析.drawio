@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T06:30:17.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="y3iYyA3bRtiNuVyH7qWv" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T06:39:43.371Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="dkClh8pthOtzKaa_g-qs" version="16.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -196,9 +196,9 @@
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-49" value="这里设置了Factory，后续在Inflate的时候，就会使用这个Factory来Inflate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-35">
           <mxGeometry x="-20" y="480" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mvKPFEOK_YDnTUbCSuoW-50" value="Layer1" style="" parent="0" />
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-50" value="Layer1" style="locked=1;" parent="0" />
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
-          <mxGeometry x="336" y="1070" width="10" height="250" as="geometry" />
+          <mxGeometry x="336" y="1070" width="10" height="420" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-55" value="setContentView" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=1;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-54" parent="mvKPFEOK_YDnTUbCSuoW-50">
           <mxGeometry relative="1" as="geometry">
@@ -206,7 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
-          <mxGeometry x="345" y="1110" width="10" height="160" as="geometry" />
+          <mxGeometry x="345" y="1110" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-60" value="installDecor" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-59" parent="mvKPFEOK_YDnTUbCSuoW-50">
           <mxGeometry relative="1" as="geometry">
@@ -244,12 +244,44 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry x="350" y="1320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-68" value="加载内置View布局和转场动画" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-67" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="1300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry x="341" y="1430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-70" value="inflate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-69" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346" y="1410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="376" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-51" value="Comment" style="" parent="0" />
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-53" value="当Activity回调OnCreate之后，开发人员需要做Activity的初始化工作。当初始化工作完成后 需要调用 setContentView 函数来显示Activity的界面。也就是说OnCreate回调中最重要的一个步骤是 调用setContentView 函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="130" y="980" width="620" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-66" value="根据应用配置的FEATURE标志位来配置Layout的布局；最常规的情况是返回一个LinearLayout布局(&lt;br&gt;TitleBar+FrameLayout)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="470" y="1210" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-71" value="以上一步确立的ContentView为Root，加载用户自定义的根视图，构建一个视图Tree" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
+          <mxGeometry x="450" y="1400" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-72" value="回调On_ContentChange函数" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;exitX=0;exitY=0.981;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="mvKPFEOK_YDnTUbCSuoW-51" source="mvKPFEOK_YDnTUbCSuoW-54" target="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="0.033" y="-12" width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1480" as="sourcePoint" />
+            <mxPoint x="290" y="1480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
