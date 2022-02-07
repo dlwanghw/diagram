@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T10:13:04.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="JbMEeQkKaSwHycRgnidD" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T10:13:23.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="FKLQwy-ZYb8rNmm0UfML" version="16.5.3" type="github">
   <diagram id="4_MvJZbQ4KGRWns48lMO" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
           <mxGeometry x="620" y="860" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-68" value="1. 针对每个View：分发AttachedToWindow，分发窗口边距、分发测量、分发布局、以及回调ViewTreeObserver的一些回调通知。&lt;br&gt;2. 窗口服务交互，配置窗口的一些属性。&lt;br&gt;3. 和硬件渲染线程交互、做初始化配置和属性配置" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
-          <mxGeometry x="145" y="1030" width="495" height="60" as="geometry" />
+          <mxGeometry x="180" y="1030" width="450" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
