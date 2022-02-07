@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T03:20:00.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="SYGz0OYxugDqWFZ_IgR7" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T03:32:28.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="Megn5YDflG9Tw8m_r4Il" version="16.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,35 +51,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="50" y="503" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="517" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-18" value="设置Theme" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-17" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="483" as="sourcePoint" />
+            <mxPoint x="55" y="497" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="483" />
+              <mxPoint x="85" y="497" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="50" y="593" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="607" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-20" value="回调On_Create函数" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-19" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="573" as="sourcePoint" />
+            <mxPoint x="55" y="587" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="573" />
+              <mxPoint x="85" y="587" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="50" y="683" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="697" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-24" value="更新Activity状态为ON_CREATE" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-23" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="663" as="sourcePoint" />
+            <mxPoint x="55" y="677" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="663" />
+              <mxPoint x="85" y="677" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="PhoneWindow" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="80" width="100" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="300" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-4" value="Context包括包信息、ClassLoader、资源管理器、DisplayID等" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="150" width="400" height="50" as="geometry" />
