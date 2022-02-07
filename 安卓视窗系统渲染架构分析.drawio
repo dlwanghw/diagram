@@ -1,9 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T08:00:26.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="SrPwiRMOCUolDvQt-f0u" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T08:14:16.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="sPdZ4BXr7zThtBLvnzKT" version="16.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" style="locked=1;" parent="0" />
+        <mxCell id="1" style="" parent="0" />
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-56" value="DecorView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="80" width="100" height="2460" as="geometry" />
         </mxCell>
@@ -408,7 +408,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mvKPFEOK_YDnTUbCSuoW-51" value="Comment" style="locked=1;" parent="0" />
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-51" value="Comment" style="" parent="0" />
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-53" value="当Activity回调OnCreate之后，开发人员需要做Activity的初始化工作。当初始化工作完成后 需要调用 setContentView 函数来显示Activity的界面。也就是说OnCreate回调中最重要的一个步骤是 调用setContentView 函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="130" y="980" width="620" height="60" as="geometry" />
         </mxCell>
@@ -423,6 +423,9 @@
         </mxCell>
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-99" value="启动描画过程，后续过程基于此来详细描述" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
           <mxGeometry x="940" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-109" value="DecorView主要处理用户设定的标志位，根据标志位来创建根视图，然后再将用户自定义的视图加载进来，值得注意的是，前面PhoneWindow设定了Factory，这里在默认情况下回根据Factory来创建根视图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
+          <mxGeometry x="475" y="1080" width="325" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
