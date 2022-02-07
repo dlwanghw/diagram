@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T08:23:27.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="OzxibXn7tmNYbZUicG92" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T09:25:12.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="EBO9lOeUn7UJebuvZrDK" version="16.5.3" type="github">
   <diagram id="4_MvJZbQ4KGRWns48lMO" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <mxCell id="1" style="locked=1;" parent="0" />
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-1" value="ViewRootImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="60" y="20" width="100" height="720" as="geometry" />
+          <mxGeometry x="60" y="20" width="100" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-1">
           <mxGeometry x="40" y="80" width="10" height="80" as="geometry" />
@@ -15,14 +15,63 @@
             <mxPoint x="-20" y="80" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-1">
+          <mxGeometry x="45" y="120" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-8" value="scheduleTraversals" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" target="CiGQHhAC6o2fzIwNxQN8-7" parent="CiGQHhAC6o2fzIwNxQN8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-2" value="DecorView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="370" y="20" width="100" height="730" as="geometry" />
+          <mxGeometry x="370" y="20" width="100" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-3" value="WindowManager&lt;br&gt;本地代理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="220" y="20" width="100" height="400" as="geometry" />
+          <mxGeometry x="220" y="20" width="100" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-4" value="ViewTree" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="510" y="20" width="100" height="300" as="geometry" />
+          <mxGeometry x="510" y="20" width="100" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-9" value="contentLayer" parent="0" />
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-9">
+          <mxGeometry x="100" y="220" width="10" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-15" value="doTraversal" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" target="CiGQHhAC6o2fzIwNxQN8-14" parent="CiGQHhAC6o2fzIwNxQN8-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-9">
+          <mxGeometry x="105" y="270" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-17" value="performTraversals" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" target="CiGQHhAC6o2fzIwNxQN8-16" parent="CiGQHhAC6o2fzIwNxQN8-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="140" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-9">
+          <mxGeometry x="415" y="290" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-24" value="dispatchAttachedToWindow" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" target="CiGQHhAC6o2fzIwNxQN8-23" parent="CiGQHhAC6o2fzIwNxQN8-9" source="CiGQHhAC6o2fzIwNxQN8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-26" value="dispatchApplyWindowInsets" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" parent="CiGQHhAC6o2fzIwNxQN8-9" target="CiGQHhAC6o2fzIwNxQN8-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="330" as="sourcePoint" />
+            <mxPoint x="200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-12" value="comment" parent="0" />
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-13" value="这里Handler处理的部分就不再深入调查，主要的需求是申请了一个Callback函数，这个callback函数将在下一个Vsync中执行，这个可能是一个很重要的机制" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="210" y="150" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
