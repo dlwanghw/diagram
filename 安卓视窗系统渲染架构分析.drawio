@@ -1,9 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T03:46:51.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="nvDrsCz-VIGQ5RAYPIKk" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T03:53:57.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="A6rTanYyYYpQ_FRyeHlU" version="16.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <mxCell id="1" style="locked=1;" parent="0" />
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-14" value="将ActivityThread、ActivityInfo、Application等信息和当前的activity绑定到一起；&lt;br&gt;如果window为空的话，就实例化一个PhoneWindow，并且绑定Windows的监听事件(如事件的回调、窗体消失处理等)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="310" width="440" height="60" as="geometry" />
         </mxCell>
@@ -187,8 +187,19 @@
         <mxCell id="mvKPFEOK_YDnTUbCSuoW-49" value="这里设置了Factory，后续在Inflate的时候，就会使用这个Factory来Inflate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-35">
           <mxGeometry x="-20" y="480" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mvKPFEOK_YDnTUbCSuoW-50" value="Layer1" parent="0" />
-        <mxCell id="mvKPFEOK_YDnTUbCSuoW-51" value="Comment" parent="0" />
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-50" value="Layer1" style="" parent="0" />
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry x="336" y="1070" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-55" value="setContentView" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=1;" edge="1" target="mvKPFEOK_YDnTUbCSuoW-54" parent="mvKPFEOK_YDnTUbCSuoW-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-51" value="Comment" style="locked=1;" parent="0" />
+        <mxCell id="mvKPFEOK_YDnTUbCSuoW-53" value="当Activity回调OnCreate之后，开发人员需要做Activity的初始化工作。当初始化工作完成后 需要调用 setContentView 函数来显示Activity的界面。也就是说OnCreate回调中最重要的一个步骤是 调用setContentView 函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mvKPFEOK_YDnTUbCSuoW-51">
+          <mxGeometry x="130" y="980" width="620" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
