@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T02:28:13.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="nqVin3Qmj2q0hGrKRBOY" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T02:31:07.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="xGIn12R7kekgNWtx2Xl0" version="16.5.3" type="github">
   <diagram id="4_MvJZbQ4KGRWns48lMO" name="Page-1">
     <mxGraphModel dx="1306" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" style="locked=1;" parent="0" />
+        <mxCell id="1" style="" parent="0" />
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-1" value="ViewRootImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="60" y="20" width="100" height="1900" as="geometry" />
+          <mxGeometry x="60" y="20" width="100" height="3040" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-1">
           <mxGeometry x="40" y="80" width="10" height="80" as="geometry" />
@@ -59,7 +59,7 @@
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-147" value="RootRenderNode" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
           <mxGeometry x="1030" y="20" width="100" height="3010" as="geometry" />
         </mxCell>
-        <mxCell id="CiGQHhAC6o2fzIwNxQN8-9" value="contentLayer" style="" parent="0" />
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-9" value="contentLayer" style="locked=1;" parent="0" />
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-9">
           <mxGeometry x="100" y="220" width="10" height="1440" as="geometry" />
         </mxCell>
@@ -607,7 +607,7 @@
           <mxGeometry x="750" y="1796" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-115" value="ThreadRenderer：管理所有的渲染对象，也是ViewRootImpl实施硬件渲染的入口；&lt;br&gt;RenderNode：每个View都会携带这个RenderNode，整体构成了一个RenderNodeTree，即渲染树&lt;br&gt;DisplayListCanvas：RenderNode绘制分成两个步骤：步骤一是生成DisplayList；DisplayListCanvas就是用来保存DisplayList的对象，最终DisplayListCanvas的内容也会保存到RenderNode中。" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
-          <mxGeometry x="290" y="3125" width="690" height="90" as="geometry" />
+          <mxGeometry x="280" y="3080" width="690" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-126" value="使用硬件渲染的方式来描画背景,在父亲提供的Canvas基础上，重新生成一个RenderNode，并最终通过root节点的Cavas.drawRenderNode(subRoot节点的RenderNode)，实现了渲染树的构建" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
           <mxGeometry x="960" y="1906" width="190" height="160" as="geometry" />
@@ -617,6 +617,54 @@
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-146" value="这里第一次完整的构建一个从根开始的渲染树，每个渲染树中的节点(RenderNode)保存了DisplayList。而每个View中保存了渲染树节点RenderNode" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
           <mxGeometry x="940" y="1681" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-157" value="ViewRootImpl" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="60" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-158" value="WindowManager" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="220" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-159" value="DecorView" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="370" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-160" value="ViewTree" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="510" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-161" value="ViewTreeObserver" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="630" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-162" value="ThreadedRenderer" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="750" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-163" value="RenderNode" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="890" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-164" value="RootRenderNode" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="1030" y="1111" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-165" value="ViewRootImpl" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="60" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-166" value="WindowManager" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="220" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-167" value="DecorView" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="370" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-168" value="ViewTree" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="510" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-169" value="ViewTreeObserver" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="630" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-170" value="ThreadedRenderer" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="750" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-171" value="RenderNode" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="890" y="2221" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-172" value="RootRenderNode" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+          <mxGeometry x="1030" y="2221" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
