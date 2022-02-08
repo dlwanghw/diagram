@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T02:32:38.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="bar3vlQYui2NYGb87xuO" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T02:43:51.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="EmDq040XU87JPAf3mt3h" version="16.5.3" type="github">
   <diagram id="4_MvJZbQ4KGRWns48lMO" name="Page-1">
-    <mxGraphModel dx="1075" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
@@ -253,7 +253,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-9">
-          <mxGeometry x="790" y="1316" width="10" height="80" as="geometry" />
+          <mxGeometry x="800" y="1322" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-76" value="setFrameCompleteCallback" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;curved=0;" edge="1" parent="CiGQHhAC6o2fzIwNxQN8-9">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -606,7 +606,7 @@
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-109" value="获取RecordingCavas" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
           <mxGeometry x="750" y="1796" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CiGQHhAC6o2fzIwNxQN8-115" value="ThreadRenderer：管理所有的渲染对象，也是ViewRootImpl实施硬件渲染的入口；&lt;br&gt;RenderNode：每个View都会携带这个RenderNode，整体构成了一个RenderNodeTree，即渲染树&lt;br&gt;DisplayListCanvas：RenderNode绘制分成两个步骤：步骤一是生成DisplayList；DisplayListCanvas就是用来保存DisplayList的对象，最终DisplayListCanvas的内容也会保存到RenderNode中。" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
+        <mxCell id="CiGQHhAC6o2fzIwNxQN8-115" value="ThreadRenderer：管理所有的渲染对象，也是ViewRootImpl实施硬件渲染的入口；&lt;br&gt;RenderNode：每个View都会携带这个RenderNode，整体构成了一个RenderNodeTree，即渲染树&lt;br&gt;DisplayListCanvas：RenderNode绘制分成两个步骤：步骤一是生成DisplayList；DisplayListCanvas就是用来保存DisplayList的对象，最终DisplayListCanvas的内容也会保存到RenderNode中。" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;flipH=1;flipV=1;align=left;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
           <mxGeometry x="280" y="3080" width="690" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CiGQHhAC6o2fzIwNxQN8-126" value="使用硬件渲染的方式来描画背景,在父亲提供的Canvas基础上，重新生成一个RenderNode，并最终通过root节点的Cavas.drawRenderNode(subRoot节点的RenderNode)，实现了渲染树的构建" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="CiGQHhAC6o2fzIwNxQN8-12">
